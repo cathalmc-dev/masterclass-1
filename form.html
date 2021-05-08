@@ -10,9 +10,53 @@
   
 </head>
 <body>
+  <header>
+    <h1>
+      <a href="index.html">
+        <img src="assets/images/logo.png" id="logo">
+      </a>
+    </h1>
+    <nav>
+      <ul id="header-nav">
+        <li>
+          <a href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="form.html">Form</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 <section id="form">
 <form method="POST" class="review-form">
   <h2>Tell Us How We Did!</h2>
+  <label for="fname">First Name:</label>
+  <input id="fname" name="first-name" type="text" required>
+
+  <label for="lname">Last Name:</label>
+  <input id="lname" name="last-name" type="text" required>
+
+  <label for="email">Email Address:</label>
+  <input type="email" id="email" name="email-address" required>
+
+  <h3> Would you like to receive special offers and promotional updates?</h3>
+  <label for="yes">Yes</label>
+  <input id="yes" type="radio" name="receive-emails" value="yes" required>
+
+  <label for="no">No</label>
+  <input id="no" type="radio" name="receive-emails" value="no">
+
+  <h3>Was this your first time to visit our restaurant?</h3>
+  <label for="yes">Yes</label>
+  <input id="yes" type="radio" name="receive-emails" value="yes" required>
+
+  <label for="no">No</label>
+  <input id="no" type="radio" name="receive-emails" value="no">
+
+  <h3>Rate the following statements out of 5....</h3>
+  <p>The menu was easy to read and descriptive</p>
+  <label for="1">1</label>
+  <input id="1" type="radio" name="one" value="1">
 </form>
 </section>
 <footer>Footer</footer>

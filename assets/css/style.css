@@ -3,8 +3,8 @@
 :root {
   --heading-font: Parisienne, serif;
   --body-font: Roboto, sans-serif;
-  --orange: #EF7042;
-  --purple: #491686;
+  --orange: #E27476;
+  --purple: #8F1383;
   --white: #f1f1ef;
 }
 
@@ -21,4 +21,53 @@ html {
 body {
   font-family: var(--body-font);
   color: var(--white)
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+}
+
+header {
+  height: 150px;
+  background-color: var(--purple);
+  border-bottom: 3px solid var(--orange);
+  position: fixed;
+  width: 100%;
+}
+
+#logo {
+  height: 250px;
+  margin-top: -50px;
+  float: left;
+}
+
+#header-nav {
+  float: right;
+  line-height: 150px;
+}
+
+#header-nav li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+  font-size: 250%;
+}
+
+#header-nav a {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+
+
+/*Menu*/
+
+#menu{
+  height: 300px;
+}
+
+#starters{
+  padding-top: 30px;
+  width: 33%;
+  float: left;
 }
