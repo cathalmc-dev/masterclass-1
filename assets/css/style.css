@@ -71,3 +71,72 @@ header {
   width: 33%;
   float: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+  height: auto;
+  background-color: var(--purple);
+  text-align: center;
+  width: 100vw;
+  color: var(--orange);
+}
+
+footer div {
+  width: 33%;
+  margin: 0 auto;
+}
+
+footer h2, footer p {
+  margin-bottom: 10px;
+}
+
+.footer-item {
+  width: 33%;
+  margin: 50px auto 0;
+  display: inline-block;
+}
+
+#footer-bg {
+  width: 100vw;
+}
+
+#footer-outer {
+  height: 250px;
+  width: 65%;
+}
+
+#footer-contact {
+  float: left;
+}
+
+#footer-logo {
+  float: right;
+  margin-top: 40px;
+  height: 250px;
+}
+
+.social-media {
+  font-size: 180%;
+}
+
+.social-media li {
+  display: inline;
+  list-style-type: none;
+  color: var(--orange);
+}
+.social-media a {
+  text-decoration: none;
+  color: inherit;
+}
