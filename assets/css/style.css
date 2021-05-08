@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto&display=swap');
+
+:root {
+  --heading-font: Parisienne, serif;
+  --body-font: Roboto, sans-serif;
+  --orange: #EF7042;
+  --purple: #491686;
+  --white: #f1f1ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html {
+  height: auto;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--white)
+}
