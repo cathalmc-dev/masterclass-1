@@ -35,7 +35,7 @@ header {
   width: 100%;
 }
 
-#logo {
+.logo {
   height: 250px;
   margin-top: -50px;
   float: left;
@@ -62,15 +62,6 @@ header {
 
 /*Menu*/
 
-#menu{
-  height: 300px;
-}
-
-#starters{
-  padding-top: 30px;
-  width: 33%;
-  float: left;
-}
 
 
 
