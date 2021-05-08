@@ -33,7 +33,10 @@ header {
   border-bottom: 3px solid var(--orange);
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
+
+/* Nav bar */
 
 .logo {
   height: 250px;
@@ -58,9 +61,65 @@ header {
   color: var(--orange);
 }
 
+/* Hero image */
+
+#hero-outer {
+  height: 950px;
+  width: 100%;
+  position: relative;
+  top: 155px;
+}
+
+#hero {
+  height: 850px;
+  width: 100%;
+  background: url("../images/hero-crop.jpeg") no-repeat center center;
+}
+
+
 
 
 /*Menu*/
+
+#menu{ 
+  padding-top: 200px
+}
+
+#menu-title{
+  text-align: center;
+ 
+}
+
+hr{
+  border-bottom: solid 1px var(--orange);
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+#starters{
+  padding-top: 60px;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+
+#specials{
+    padding-top: 60px;
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+
+#desserts{
+    padding-top: 60px;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 
 
 
