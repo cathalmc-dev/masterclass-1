@@ -20,7 +20,8 @@ html {
 
 body {
   font-family: var(--body-font);
-  color: var(--white)
+  color: var(--white);
+  background-color: var(--orange);
 }
 
 h1, h2 {
@@ -82,41 +83,55 @@ header {
 /*Menu*/
 
 #menu{ 
-  padding-top: 200px
+  padding-top: 200px;
+ 
 }
 
 #menu-title{
   text-align: center;
+  color: black;
  
 }
 
+
+
 hr{
-  border-bottom: solid 1px var(--orange);
+  border-bottom: solid 1px var(--purple);
   width: 40%;
   margin: 0 auto;
 }
 
 
 #starters{
+  border: solid 1px var(--purple);
+  border-bottom: 50px;
   padding-top: 60px;
   width: 33%;
   float: left;
   text-align: center;
+  color: black;
 }
 
 
+
 #specials{
+    border: solid 1px var(--purple);
+    border-bottom: 50px;
     padding-top: 60px;
     width: 33%;
     float: right;
     text-align: center;
+    color: black;
 }
 
 #desserts{
+    border: solid 1px var(--purple);
+    border-bottom: 50px;
     padding-top: 60px;
     width: 33%;
     margin: 0 auto;
     text-align: center;
+    color: black;
 }
 
 
